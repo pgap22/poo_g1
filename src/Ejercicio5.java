@@ -31,7 +31,7 @@ class Empleado {
 }
 
 // Clase principal
-public class PagoHorasExtras {
+public class Ejercicio5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<Empleado> empleados = new ArrayList<>();
@@ -80,7 +80,7 @@ public class PagoHorasExtras {
             // Calcular el pago total por horas extras
             double pagoHorasExtras = ((salario / 30) * horasExtras) + (horasExtras * bonoPorHora);
 
-            // Crear un objeto Empleado y agregarlo a la lista
+            // Crear un objeto src.Empleado y agregarlo a la lista
             empleados.add(new Empleado(nombre, salario, departamento, horasExtras, pagoHorasExtras));
         }
 
